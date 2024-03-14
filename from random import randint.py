@@ -28,6 +28,7 @@ def num_guess_game():
     
     # Looping till guess count reaches total guesses
     while guess_count <= total_guesses:
+        print(f"You Have {total_guesses-guess_count} guesses remaining..")
         message1 = "Make a guess>> "
         guess = int(input(message1))
         if guess == number:
